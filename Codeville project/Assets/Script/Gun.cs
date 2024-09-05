@@ -8,7 +8,6 @@ public class Gun : MonoBehaviour
     public Transform firePoint;
     public AudioSource[] soundFX;
 
-    // Start is called before the first frame update
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Space))
